@@ -1,6 +1,6 @@
 let msg;
 
-for (let i = i; i <= 10; ++i){
+for (let i = 1; i <= 10; ++i){
 
     msg = (i + ' x 7 = ' + i * 7);
 
