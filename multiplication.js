@@ -1,9 +1,12 @@
-ecrireTableMultiplication(6);
+for (let i = 1; i <= 10; ++i){
+    ecrireTableMultiplication(i);
+}
 
-function ecrireTableMultiplication(multiplicateur) {
+
+function ecrireTableMultiplication(multiplicateur, limite = 10) {
     let msg;
 
-    for (let i = 1; i <= 10; ++i){
+    for (let i = 1; i <= limite; ++i){
     
         msg = i + ' x ' + multiplicateur + ' = ' +  i * multiplicateur;
     
